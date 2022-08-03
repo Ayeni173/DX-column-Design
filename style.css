@@ -22,7 +22,9 @@ body {
 }
 
 .right-div {
-    background-color: tomato;
+    background: url(./img/image1.jpg);
+    background-size: cover;
+    background-position: bottom left;
     height: 400px;
     width: 50%;
 }
