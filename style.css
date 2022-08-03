@@ -5,7 +5,7 @@
 .parent-div {
     border: 3px solid black;
     display: flex;
-    
+
 }
 
 .left-div {
@@ -22,4 +22,9 @@
     background-color: tomato;
     height: 300px;
     width: 50%;
+}
+.smart-line {
+    background-color: #FF6347;
+    height: 16px;
+    width: 226px;
 }
