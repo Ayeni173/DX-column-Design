@@ -15,7 +15,7 @@ body {
 
 .left-div {
     background-color: #d9d9d9;
-    height: 1600px;  
+    height: 400px;  
     width: 50%;  
     padding: 20px;
 
@@ -23,7 +23,7 @@ body {
 
 .right-div {
     background-color: tomato;
-    height: 1600px;
+    height: 400px;
     width: 50%;
 }
 .smart-line {
@@ -46,4 +46,12 @@ body {
 
 .header-long-text {
     margin-bottom: 20px;
+}
+
+.link-holder {
+    display: flex;
+    /* border: 3px solid black; */
+    justify-content: space-evenly;
+    color: #ffff;
+    padding: 20px 0;
 }
