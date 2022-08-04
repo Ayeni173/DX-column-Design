@@ -56,4 +56,16 @@ body {
     justify-content: space-evenly;
     color: #ffff;
     padding: 20px 0;
+    width: 100%;
+    z-index: 3;
+}
+
+/* WOrking on Background overlay to work on the background picture */
+.bg-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(225, 99, 71, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
 }
