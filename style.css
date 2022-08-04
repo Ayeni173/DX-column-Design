@@ -27,6 +27,7 @@ body {
     background-position: bottom left;
     height: 400px;
     width: 50%;
+    position: relative;
 }
 .smart-line {
     background-color: #FF6347;
@@ -68,4 +69,23 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.second-section {
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondsection-left {
+    width: 350px;
+    height: 360px;
+    background: #d9d9d9;
+}
+
+.secondsection-right {
+    width: 380px;
+    height: 420px;
+    background: orangered;
 }
