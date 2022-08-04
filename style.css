@@ -125,6 +125,19 @@ img {
 .third-section-right {
     background: orangered;
 }
+
+.footer {
+    background: #FF6347;
+    padding: 20px 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.icon-holder {
+    color: white;
+}
  
 
  
