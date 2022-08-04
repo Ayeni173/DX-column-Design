@@ -76,16 +76,26 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px 0;
 }
 
 .secondsection-left {
     width: 350px;
     height: 360px;
     background: #d9d9d9;
+    /* margin-right: 10px; */
+    padding: 40px 25px;
+    text-align: center;
 }
 
 .secondsection-right {
     width: 380px;
     height: 420px;
     background: orangered;
+    margin-left: 10px;
+}
+
+p {
+    margin: 20px 0;
+    text-align: left;
 }
