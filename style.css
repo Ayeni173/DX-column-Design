@@ -80,8 +80,8 @@ body {
 }
 
 .secondsection-left {
-    width: 350px;
-    height: 360px;
+    width: 300px;
+    height: 400px;
     background: #d9d9d9;
     /* margin-right: 10px; */
     padding: 40px 25px;
@@ -89,8 +89,8 @@ body {
 }
 
 .secondsection-right {
-    width: 380px;
-    height: 420px;
+    width: 320px;
+    height: 460px;
     background: orangered;
     margin-left: 10px;
 }
@@ -114,8 +114,8 @@ img {
 
 .third-section-left,
 .third-section-right {
-        width: 400px;
-        height: 420px;
+        width: 300px;
+        height: 430px;
 }
 
 .third-section-left {
