@@ -180,6 +180,7 @@ img {
         margin-bottom: 20px;
     }
 
+    /* Working on the Second section */
     .second-section {
         flex-direction: column;
     }
@@ -187,6 +188,26 @@ img {
     .secondsection-right {
         margin-left: 0;
         margin-top: 30px;
+    }
+
+    /* WOrking on the Third Section */
+    .Third-section {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .third-section-right {
+        margin-bottom: 30px;
+    }
+
+    /* Working on Footer */
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer p {
+        text-align: center;
     }
 }
  
