@@ -28,6 +28,7 @@ body {
     height: 400px;
     width: 50%;
     position: relative;
+    display: flex;
 }
 .smart-line {
     background-color: #FF6347;
@@ -138,6 +139,55 @@ img {
 
 .icon-holder {
     color: white;
+}
+
+/* Written Media Querry */
+@media screen and (max-width: 900px){
+    .right-div,
+    .left-div {
+        height: 530px;
+    }
+
+    .left-div {
+        width: 60%;
+    }
+
+    .left-div {
+        width: 40%;
+    }
+
+    .header-heading-text {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .smart-line {
+        width: 200px;
+    }
+
+    .link-holder {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 25px;
+        padding-left: 40px;
+        /* align-items: center; */
+    }
+
+    .link-holder h4 {
+        margin-bottom: 20px;
+    }
+
+    .second-section {
+        flex-direction: column;
+    }
+
+    .secondsection-right {
+        margin-left: 0;
+        margin-top: 30px;
+    }
 }
  
 
