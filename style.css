@@ -9,6 +9,7 @@ body {
 
 .parent-div {
     /* border: 3px solid black; */
+    width: 100%;
     display: flex;
     max-width: 1500px;
     margin: 0 auto;
@@ -153,19 +154,19 @@ img {
 @media screen and (max-width: 900px){
     .right-div,
     .left-div {
-        height: 530px;
+        height: 550px;
     }
 
     .left-div {
         width: 60%;
     }
 
-    .left-div {
+    .right-div {
         width: 40%;
     }
 
     .header-heading-text {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     p {
